@@ -3,4 +3,5 @@
 loca.env
 
 # Node
+dist/
 node_modules/

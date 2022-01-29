@@ -11,6 +11,7 @@ yarn tsc --init
 # tsconfig uncomment: outDir: ./dist
 echo "=> LOG: Added watch server addon"
 yarn add ts-node-dev -D
+# Add to package.json the script "dev:server":"ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts"
 echo "=> LOG: Added tslint"
 # yarn add eslint@6.8.0 -D
 # yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.21.2 @typescript-eslint/parser@latest -D
