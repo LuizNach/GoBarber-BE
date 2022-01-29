@@ -1,0 +1,6 @@
+# local variables
+.env
+loca.env
+
+# Node
+node_modules/
