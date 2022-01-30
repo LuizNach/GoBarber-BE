@@ -1,3 +1,8 @@
-import userRoutes from "./create-user";
+import Routes from 'express';
+import appointmentsRouter from './appointments.routes';
 
-export { userRoutes };
+const routes = Routes();
+
+routes.use('/appointments', appointmentsRouter);
+
+export default routes;

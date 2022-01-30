@@ -1,11 +1,11 @@
 import express from 'express';
-import { userRoutes } from './routes';
+import routes from './routes';
 
 const app = express();
 const port = 3333;
 
 app.use(express.json());
-app.use(userRoutes);
+app.use(routes);
 
 app.get("/", (request, response) => {
     return response.status(200).json({ message: "Ok"});
