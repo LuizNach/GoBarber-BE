@@ -1,3 +1,3 @@
-import AppointmentsRepository from "./AppointmentsRepository";
+import { AppointmentsRepository, CreateAppointmentDTO } from "./AppointmentsRepository";
 
-export { AppointmentsRepository };
+export { AppointmentsRepository, CreateAppointmentDTO };

@@ -5,7 +5,7 @@ export default class Appointment {
     provider: String;
     date: Date;
 
-    constructor(provider: String, date: Date) {
+    constructor({ provider, date }: Omit<Appointment, 'id'>) {
         this.id = uuidv4();
         this.date = date;
         this.provider = provider;
