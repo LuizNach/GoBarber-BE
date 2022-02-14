@@ -24,5 +24,6 @@ yarn add date-fns
 echo "=> LOG: Create the source folder"
 mkdir "src"
 touch src/server.ts
-# echo "=> LOG: Adding CORS to connect to local FE"
-# yarn add cors 
+echo "=> LOG: Database support Postgresl with TypeORM"
+yarn add typeorm
+yarn add pg
