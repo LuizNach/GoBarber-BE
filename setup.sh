@@ -27,3 +27,4 @@ touch src/server.ts
 echo "=> LOG: Database support Postgresl with TypeORM"
 yarn add typeorm
 yarn add pg
+yarn add reflect-metadata
