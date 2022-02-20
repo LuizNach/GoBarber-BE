@@ -28,3 +28,6 @@ echo "=> LOG: Database support Postgresl with TypeORM"
 yarn add typeorm
 yarn add pg
 yarn add reflect-metadata
+# Run migration: yarn typeorm migration:run
+# Revert migration: yarn typeorm migration:revert
+# Create migration: yarn typeorm migration:create -n <name_of_migration>
